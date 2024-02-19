@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 16vw;
+}
+h2 {
+  font-size: 1.2vw;
+}
+h3 {
+  font-size: 2vw;
+}
+h5 {
+        font-size: 0.7vw;
+        color: var(--Text--Color--1);
+}
+p {
+  font-size: 1vw;
+}
+
+li a {
+  font-size: 1vw;
+}
+li {
+  font-size: 0.7vw;
+}
+i{
+        color: var(--Text--Color--1);    
+}
+
+/* !!!!!!! */
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #9e0000;
+}
